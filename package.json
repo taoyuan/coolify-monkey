@@ -1,0 +1,32 @@
+{
+  "name": "coolify-monkey",
+  "description": "A userscript to make Coolify even cooler!",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prettier:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "jquery": "^3.7.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@types/jquery": "^3.5.16",
+    "@types/node": "^20.4.4",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.6",
+    "vite-plugin-monkey": "^3.3.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run build"
+    }
+  },
+  "packageManager": "yarn@3.6.1"
+}
