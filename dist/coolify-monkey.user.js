@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Coolify Monkey
 // @namespace    https://github.com/taoyuan/coolify-monkey
-// @version      1.0.0
+// @version      1.0.1
 // @author       TY
 // @description  A userscript to make Coolify even cooler!
 // @icon         https://coolify.io/favicon.png

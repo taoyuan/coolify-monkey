@@ -2,7 +2,7 @@
   "name": "coolify-monkey",
   "description": "An userscript to make Coolify even cooler!",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite build --watch --mode development",

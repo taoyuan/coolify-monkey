@@ -8,7 +8,7 @@ export default defineConfig({
       entry: 'src/main.ts',
       userscript: {
         name: 'Coolify Monkey',
-        version: '1.0.0',
+        version: process.env.npm_package_version,
         description: 'A userscript to make Coolify even cooler!',
         icon: 'https://coolify.io/favicon.png',
         namespace: 'https://github.com/taoyuan/coolify-monkey',
