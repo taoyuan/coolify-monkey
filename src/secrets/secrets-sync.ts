@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 import {compareArrays, delay, waitForSelector} from '../utils';
 import {Secrets} from './consts';
 import {

@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 import {waitForSelector} from '../utils';
 import {Secrets} from './consts';
 

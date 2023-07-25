@@ -1,6 +1,6 @@
 {
   "name": "coolify-monkey",
-  "description": "A userscript to make Coolify even cooler!",
+  "description": "An userscript to make Coolify even cooler!",
   "private": true,
   "version": "1.0.0",
   "type": "module",

@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 export interface SecretItem {
   name: JQuery;
   value: JQuery;
